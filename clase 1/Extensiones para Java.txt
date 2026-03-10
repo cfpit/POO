@@ -1,0 +1,22 @@
+Extensiones para Java
+
+1. Extension Pack for Java (de Microsoft)
+Es el "corazón" de Java en VS Code. Es obligatorio para cualquier tipo de proyecto (escritorio o Spring).
+
+Qué incluye: Soporte de lenguaje, depurador (debugger), herramientas de testing (JUnit) y, lo más importante, el soporte para Maven y Gradle.
+
+Para qué sirve: crea aplicaciones de escritorio clásicas, compila el código y gestiona librerías.
+
+
+2. Spring Boot Extension Pack (de VMware)
+Permite trabajar con Spring.
+
+Qué incluye: Spring Initializr (para crear el proyecto), Spring Boot Tools (ayuda con el código) y el Dashboard (panel de control).
+
+Para qué sirve: permite generar proyectos de Spring Boot rápidamente y gestionar su ejecución de forma visual.
+
+
+3. Nota: configurar las variables de entorno
+JAVA_HOME : C:\Program Files\Java\jdk-21\bin
+Path: %JAVA_HOME%\bin
+

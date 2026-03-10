@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Atajos de VS Code</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+        
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            color: #007ACC;
+            text-align: center;
+            border-bottom: 3px solid #007ACC;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #2d3748;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        
+        .section {
+            margin-bottom: 25px;
+            border-left: 4px solid #007ACC;
+            padding-left: 15px;
+        }
+        
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        li {
+            margin: 8px 0;
+            padding: 8px 12px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            border-left: 3px solid #007ACC;
+        }
+        
+        .shortcut {
+            background: #2d3748;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            font-weight: bold;
+            margin-right: 10px;
+            font-size: 0.9em;
+        }
+        
+        .description {
+            color: #555;
+        }
+        
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 8px;
+        }
+        
+        .highlight {
+            background: #fff3cd;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #dee2e6;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Atajos de VS Code</h1>
+        
+        <div class="section">
+            <h2><span class="emoji">🔄</span>Navegación entre Paneles</h2>
+            <ul>
+                <li><span class="shortcut">Ctrl+1</span> <span class="description">Enfoca en el editor de código</span></li>
+                <li><span class="shortcut">Ctrl+Shift+E</span> <span class="description">Enfoca en Explorer (explorador de archivos)</span></li>
+                <li><span class="shortcut">Ctrl+Shift+F</span> <span class="description">Enfoca en Search (búsqueda)</span></li>
+                <li><span class="shortcut">Ctrl+Shift+G</span> <span class="description">Enfoca en Source Control (Git)</span></li>
+                <li><span class="shortcut">Ctrl+Shift+D</span> <span class="description">Enfoca en Debug</span></li>
+                <li><span class="shortcut">Ctrl+Shift+X</span> <span class="description">Enfoca en Extensions</span></li>
+                <li><span class="shortcut">F6</span> <span class="description">Cicla entre todos los paneles</span></li>
+                <li><span class="shortcut">Shift+F6</span> <span class="description">Cicla en sentido contrario</span></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">💬</span>GitHub Copilot Chat</h2>
+            <ul>
+                <li><span class="shortcut">Ctrl+Shift+I</span> <span class="description">Abre/cierra el panel de chat</span></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">🖥️</span>Terminal</h2>
+            <ul>
+                <li><span class="shortcut">Ctrl+`</span> <span class="description">Abre/cierra la terminal</span></li>
+                <li><span class="shortcut">Ctrl+Shift+`</span> <span class="description">Crea una nueva terminal</span></li>
+                <li><span class="shortcut">Ctrl+J</span> <span class="description">Abre/cierra el panel inferior</span></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">📄</span>Edición de Código</h2>
+            <ul>
+                <li><span class="shortcut">Shift+Alt+Abajo</span> <span class="description">Duplica la línea hacia abajo</span></li>
+                <li><span class="shortcut">Shift+Alt+Arriba</span> <span class="description">Duplica la línea hacia arriba</span></li>
+                <li><span class="shortcut">Alt+Arriba/Abajo</span> <span class="description">Mueve la línea arriba/abajo</span></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">🎯</span>Selección Múltiple</h2>
+            <ul>
+                <li><span class="shortcut">Ctrl+D</span> <span class="description">Selecciona apariciones incrementalmente</span></li>
+                <li><span class="shortcut">Ctrl+Shift+L</span> <span class="description">Selecciona TODAS las apariciones</span></li>
+                <li><span class="shortcut">Ctrl+F2</span> <span class="description">También selecciona todas las apariciones</span></li>
+                <li><span class="shortcut">Ctrl+K Ctrl+D</span> <span class="description">Salta aparición actual y selecciona siguiente</span></li>
+                <li><span class="shortcut">Ctrl+U</span> <span class="description">Deshace la última selección múltiple</span></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">▶️</span>Ejecutar Código Java</h2>
+            <ul>
+                <li><span class="shortcut">Ctrl+F5</span> <span class="description">Ejecuta sin debugging</span></li>
+                <li><span class="shortcut">F5</span> <span class="description">Ejecuta con debugging</span></li>
+                <li><span class="shortcut">Shift+F5</span> <span class="description">Detener ejecución</span></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2><span class="emoji">🔧</span>Otros Útiles</h2>
+            <ul>
+                <li><span class="shortcut">Ctrl+Tab</span> <span class="description">Alternar entre pestañas abiertas</span></li>
+                <li><span class="shortcut">Ctrl+Shift+P</span> <span class="description">Paleta de comandos</span></li>
+                <li><span class="shortcut">Alt+Tab</span> <span class="description">Alternar entre ventanas</span></li>
+            </ul>
+        </div>
+
+        <div class="highlight">
+            <strong>💡 Tip:</strong> Los atajos más utilizados son <code>Ctrl+1</code> (código), <code>Ctrl+Shift+E</code> (explorer), <code>Ctrl+`</code> (terminal) y <code>Ctrl+D</code> (selección múltiple).
+        </div>
+
+        <div class="footer">
+            
+        </div>
+    </div>
+</body>
+</html>
