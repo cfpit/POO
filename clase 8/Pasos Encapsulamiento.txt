@@ -1,0 +1,6 @@
+Encapsulamiento
+	--> hacer private el atributo
+	--> generar los metodos publicos getters y setters q permiten acceder el atributo privado dsd otras clases
+	--> crear regla de negocio en el setter
+	--> en los metodos q modifican el estado, colocar la llamada al setter
+	--> en el constructor sobrecargado colocar la llamada al setter
