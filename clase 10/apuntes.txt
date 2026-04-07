@@ -1,0 +1,36 @@
+
+Polimorfismo sin redefinicion -> sobrecarga de metodos
+
+Polimorfismo con redefinicion 
+		->  debe existir herencia
+		->  la clase hija decide modificar el cuerpo (no la firma)
+			de por lo menos un metodo heredado del padre.
+		-> hace mas flexible el comportamiento de las clases hijas
+
+		-> Ej.: la clase padre Auto acelera de a 10 km/h pero la clase hija AutoDeCarrera acelera de a 50 km/h
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
