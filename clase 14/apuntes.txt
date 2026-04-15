@@ -1,0 +1,18 @@
+clases concretas: son aquellas de las cuales podemos instanciar objetos
+
+clases abstractas: no permiten instanciar objetos sino q primero deben heredar
+o extenderse en clases hijas concretas. 
+
+Por ejemplo: 
+Vehiculo(abstracta) hereda en Auto(concreta) 
+Animal(abstracta) hereda en Perro(concreta) 
+SerHumano(abstracta) hereda en Cantante(concreta) 
+CuentaBancaria(abstracta) hereda en CajaDeAhorro(concreta)
+
+- Una clase abstracta puede o no tener metodos abstractos
+- Una clase concreta no puede tener metodos abstractos
+- Una clase abstracta puede heredar de otra clase abstracta
+- Un metodo abstracto posee solo firma (no cuerpo, o sea, no posee implementacion)
+
+- Las clases hijas q heredan de una clase abstracta padre debe obligatoriamente
+implementar los metodos abstractos heredados desde el padre.
