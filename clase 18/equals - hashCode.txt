@@ -1,0 +1,19 @@
+//redefino equals y hashcode
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        Cliente cliente = (Cliente) obj;
+        return edad == cliente.edad && nombre.equals(cliente.nombre);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = nombre.hashCode();
+        result = 31 * result + edad;
+        return result;
+    }
