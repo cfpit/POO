@@ -1,0 +1,35 @@
+Cuando se lanza (throws) una exception
+	--> la app se "cuelga"
+	--> el usuario no sabe lo q pasa
+	--> se maneja(solucion) mediante los bloques try - catch
+
+
+Tipos de excepciones
+	--> unckecked : dependen de la app
+			--> ArithmeticException
+				--> int n = 5/0;
+			--> NumberFormatException
+				--> Integer.parseInt("Hola");
+			--> no necesitan "atender" la excepcion para poder compilar la app
+
+	--> ckecked : NO dependen de la app
+			--> SQLException
+				--> query = "selecta * from clientes";
+			--> IOException
+				--> se "pincha" el disco del cual estoy leyendo
+				--> frase = buffer.readLine();
+			--> se necesita "atender" la excepcion para poder compilar la app
+
+	--> de usuario
+		--> heredan directamente de la clase padre Exception
+		--> deben "atenderse" sino no compilan
+
+
+"Atender" la excepcion significa poner en la firma del metodo q puede llegar
+a lanzar la excepcion, la frase "throws xxxxException" 
+
+public void venderPasajes throws NoMeQuedanPasajesException(){
+	//cuerpo del metodo
+}
+
+
