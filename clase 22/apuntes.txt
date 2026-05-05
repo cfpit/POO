@@ -3,6 +3,10 @@ Cuando se lanza (throws) una exception
 	--> el usuario no sabe lo q pasa
 	--> se maneja(solucion) mediante los bloques try - catch
 
+Lanzar una excepcion significa q Java crea un objeto de esa Clase o tipo de Dato
+
+El bloque finally es opcional, se ejecuta siempre (si esta implementado) y va al final del ultimo bloque catch. Aca se toman medidas correctivas, por ejemplo, desconectarse de la BD que generaba la excepcion.  
+
 
 Tipos de excepciones
 	--> unckecked : dependen de la app
@@ -22,6 +26,7 @@ Tipos de excepciones
 
 	--> de usuario
 		--> heredan directamente de la clase padre Exception
+		--> los desarrolladores lanzamos la excepcion(por ej.: a traves de un if-else)
 		--> deben "atenderse" sino no compilan
 
 
