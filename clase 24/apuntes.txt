@@ -1,0 +1,20 @@
+Java.io	(Streams)
+	--> streams de lectura (desde un archivo fuente hacia la app)
+	--> streams de escritura (desde la app hacia un archivo destino)
+	--> copia --> combinacion de los 2 tipos de streams(lectura y escritura)
+	--> la clase File guarda el path(ruta) del archivo (de lectura o escritura)
+	--> el metodo append() permite agregar texto al final de un archivo
+
+	--> write o writeLine
+		--> si el archivo de escritura no existe, entonces, lo crea
+		--> si el archivo de escritura existe, entonces, lo sobrescribe
+
+	--> Archivos de texto
+		--> FileReader : lee de a 1 caracter a la vez (read())
+		--> FileWriter : escribe de a 1 caracter a la vez (write())
+		--> BufferedReader: lee de a lineas enteras (readLine())
+		--> BufferedWriter : escribe de a lineas enteras (writeLine())
+
+	--> Archivos binarios:
+		--> FileInputStream : lee un archivo binario de a 1 byte a la vez
+		--> FileOutputStream : escribe en un archivo binario de a 1 byte a la vez
